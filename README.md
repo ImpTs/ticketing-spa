@@ -28,9 +28,9 @@ A full-stack project utilizing React, SQL, and AWS.
 
 ## Deadlines:
 
-Start: 3/8/2020
-Front-end static mockup: 3/15/2020
-Back-end database setup: 3/18/2020
-Back-end API setup: 3/22/2020
+Start: 3/8/2020  
+Front-end static mockup: 3/15/2020  
+Back-end database setup: 3/18/2020  
+Back-end API setup: 3/22/2020  
 First Dynamic database: 3/29/2020
 
