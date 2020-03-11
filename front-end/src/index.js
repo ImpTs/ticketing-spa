@@ -4,11 +4,13 @@ import "./styles.css";
 import './index.css';
 import Navbar  from './components/navbar.js';
 import App from './App';
+import LoginPanel from './components/login.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <div>
 <Navbar/> 
+<LoginPanel/>
 <App/>
 </div>, 
 
