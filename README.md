@@ -1,6 +1,6 @@
 # Ticketing-spa
 
-A full-stack project utilizing React, SQL, and AWS.
+A full-stack project utilizing React, Node, SQL, and AWS.
 
 ## Features 
 
