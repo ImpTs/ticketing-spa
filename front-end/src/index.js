@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "./styles.css";
 import './index.css';
+import Navbar  from './components/navbar.js';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-<h1>Hello, world!</h1>, 
+    <div>
+<Navbar/> 
+<App/>
+</div>, 
 
 document.getElementById('root'));
 

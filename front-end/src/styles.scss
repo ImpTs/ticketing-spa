@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap');
+
+
+// If need, change your variables before importing Bulma
+//this varaible controls which theme we are using, $chalk:true; or $chalk:false;
+$chalk: false; 
+
+//these are the real-life altered colors of the chicago metro
+$red-line:#9E011F;
+$orange-line: #E22B00;
+$yellow-line:#C6B500;
+$green-line:#006827;
+$blue-line: #007CAB;
+$purple-line: #3A1375;
+$brown-line:#62361b;
+$pink-line:#E34A87;
+$sign:#374248;
+
+
+$title-color: #050202;
+$primary: $blue-line;
+$link: $pink-line;
+$success: $green-line;
+$info: $yellow-line;
+$danger: $red-line;
+$dark: $sign;
+$font-family: 'Lexend Exa', sans-serif;
+$family-primary: $font-family;
+
+ /* do not need chicago img right here..hero-image {
+    background-image: url('../../src/images/chicago-lake.jpg');
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+  } 
+.has-bg-img { 
+    @extend .hero;
+    background: url('../images/chicago-lake.jpg')center center; background-size:cover;
+}*/
+
+.hero-body .container .title {
+  text-shadow: 4px 4px 4px black
+
+}
+.hero-body .container .subtitle { text-shadow: 4px 4px 4px black}
+
+@import "../node_modules/bulma/bulma.sass";
